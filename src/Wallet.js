@@ -23,7 +23,7 @@ const Wallet = () => {
 			});
 
 		} else {
-			setErrorMessage('No Ethereum provided detected, Kindly install MetaMask browser extension to interact (Install Chrome)');
+			setErrorMessage('No Ethereum Provider Detected, Kindly install MetaMask browser extension to interact (Install Chrome)');
 		}
     }
 
